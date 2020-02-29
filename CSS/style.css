@@ -1,3 +1,9 @@
+body {
+/* height:auto; */
+background-color:aquamarine;
+
+}
+
 
 nav{
     background-color:black;
@@ -36,6 +42,327 @@ nav div span a:hover {
 text-decoration: none;
 color:orange;
 }
+
+#hero-img {
+    background-color:purple;
+    position: relative;
+    z-index:-1;
+    top:50px;
+    height:400px;
+    /* width:100%; */
+    background-image: url("../images/wooden-surface-bw.jpg");
+    background-size:cover;
+}
+
+#hero-img section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* margin-top:px; */
+    /* float: right; */
+    margin:-70px;
+}
+
+#hero-img div {
+    /* margin-bottom:3px; */
+    
+
+}
+
+#hero-img img {
+    width:120px;
+    /* border: 1px solid white; */
+    border-radius:10px;
+    
+}
+
+
+#animation-welcome {
+    animation-name: welcome-move;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: relative;
+    color:black;
+    font-size: 25px;
+    
+}
+
+@keyframes welcome-move {
+    from {
+        left: 0px;
+        top:0px;
+    }
+    50% {
+
+        left: 5%;
+        top: 6.5%;
+    }
+
+    to {
+        left:10%;
+        top:13%;
+        color:black;
+        font-size: 25px;
+        
+    }
+}
+
+
+
+#animation-tomyresume {
+    animation-name: tomyresume-move;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: relative;
+    color:black;
+    
+    
+}
+
+@keyframes tomyresume-move {
+    from {
+        left: 0px;
+        top:0px;
+    }
+    50% {
+
+        left: 7.5%;
+        top: 5%;
+    }
+
+    to {
+        left:15%;
+        top:10%;
+        color:black;
+        font-size: 16px;
+        
+        
+    }
+}
+
+
+
+#animation-name {
+    animation-name: name-move;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: relative;
+    color:black; 
+    display: block;
+}
+
+@keyframes name-move {
+    from {
+        left: inherit;
+        top: inherit;
+    }
+    50% {
+
+        left: 10%;
+        top: 12.5%;
+        color:transparent;
+    }
+
+    90% {
+        color: transparent;
+    }
+
+    to {
+        left:20%;
+        top:25%;
+        color: white;
+        font-size: 20px;
+        
+    }
+}
+
+
+#animation-age {
+    animation-name: age-move;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: relative;
+    color:black; 
+    display: block;
+}
+
+@keyframes age-move {
+    from {
+        left: inherit;
+        top: inherit;
+    }
+    50% {
+
+        left: 10%;
+        top: 15%;
+        color:transparent;
+    }
+
+    75% {
+        color:transparent;
+    }
+
+    to {
+        left:20%;
+        top:30%;
+        color:white;
+        font-size: 16px;
+        
+    }
+}
+
+
+#animation-race {
+    animation-name: race-move;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: relative;
+    color:black; 
+    display: block;
+}
+
+@keyframes race-move {
+    from {
+        left: inherit;
+        top: inherit;
+    }
+    50% {
+
+        left: 10%;
+        top: 17%;
+        color:transparent;
+    }
+
+    to {
+        left:20%;
+        top:35%;
+        color:white;
+        font-size: 16px;
+        
+        
+    }
+}
+
+/* 
+
+#animation-notebook {
+    animation-name: notebook-move;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: absolute;
+    
+    
+
+}
+
+@keyframes notebook-move {
+    from {
+        left:100%;
+        top:10%;
+    }
+
+    50% {
+        left:85%;
+        top:20%;
+    }
+
+    to {
+        left:68%;
+        top:30%;
+        background-color:white;
+        border:3px solid white;
+        border-radius:10px;
+    }
+}
+
+#animation-laptop {
+    animation-name: laptop-move;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: absolute;
+}
+
+@keyframes laptop-move {
+    from {
+        left:100%;
+        top:30%;
+    }
+
+    50% {
+        left:85%;
+        top:40%;
+    }
+
+    to {
+        left:68%;
+        top: 51%;
+        background-color:white;
+        border:3px solid white;
+        border-radius:10px;
+    }
+}
+
+
+#animation-calendar {
+    animation-name: calendar-move;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: linear;
+    position: absolute;
+}
+
+@keyframes calendar-move {
+    from {
+        left:100%;
+        top: 53%;
+    }
+
+    50% {
+        left: 85%;
+        top: 63.25%;
+        
+    }
+    to {
+        left: 68%;
+        top: 75%;
+        background-color:white;
+        border:3px solid white;
+        border-radius:10px;
+    }
+} */
+
+#hero-img span {
+    color:transparent;
+    /* border: 1px solid blue; */
+
+}
+
+
+
 
 @media (max-width: 500px) { 
 
@@ -78,25 +405,12 @@ color:orange;
     }
 
     #hero-img{
-    
-    position: relative;
-    z-index:-1;
-    top:150px;
-    height:auto;
-    width:100%;
-
-}
-
-#hero-img{
     background-color: red;
     position: relative;
-    z-index:-1;
-    top:50px;
-    height:auto;
+    z-index:3;
+    top:162px;
+    height:400px;
     width:100%;
-
-    
+    }
 
 }
-
-
