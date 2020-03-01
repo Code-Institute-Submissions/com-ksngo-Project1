@@ -1,6 +1,6 @@
 body {
 /* height:auto; */
-background-color:aquamarine;
+background-color:black;
 
 }
 
@@ -15,8 +15,6 @@ nav{
     width: 100%;
     /* font-weight:bold; */
     z-index:1;
-    
-    
     
 }
 
@@ -50,7 +48,7 @@ color:orange;
     position: relative;
     z-index:-1;
     top:50px;
-    height:400px;
+    height:550px;
     /* width:100%; */
     background-image: url("../images/wooden-surface-bw.jpg");
     background-size:cover;
@@ -59,24 +57,21 @@ color:orange;
 #hero-img section {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     /* margin-top:px; */
     /* float: right; */
-    margin:-70px;
+    margin:-20px;
 }
 
 #hero-img div {
     /* margin-bottom:3px; */
-    
-
 }
 
 #hero-img img {
-    width:120px;
+    width:140px;
     /* border: 1px solid white; */
     border-radius:10px;
-    
 }
 
 
@@ -118,14 +113,15 @@ color:orange;
 #animation-tomyresume {
     animation-name: tomyresume-move;
     animation-duration: 2s;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
     animation-iteration-count:1;
     animation-delay:1s;
     animation-timing-function: linear;
     position: relative;
     color:black;
+    padding-bottom:0px;
     
-    
+
 }
 
 @keyframes tomyresume-move {
@@ -145,7 +141,6 @@ color:orange;
         color:black;
         font-size: 16px;
         
-        
     }
 }
 
@@ -158,8 +153,7 @@ color:orange;
     animation-iteration-count:1;
     animation-delay:1s;
     animation-timing-function: linear;
-    position: relative;
-    color:black; 
+    position: relative; 
     display: block;
     flex-wrap: wrap;
 }
@@ -205,8 +199,8 @@ color:orange;
 
 @keyframes age-move {
     from {
-        left: inherit;
-        top: inherit;
+        /* left: inherit;
+        top: inherit; */
     }
     50% {
 
@@ -246,8 +240,8 @@ color:orange;
 
 @keyframes race-move {
     from {
-        left: inherit;
-        top: inherit;
+        /* left: inherit;
+        top: inherit; */
     }
     50% {
 
@@ -419,6 +413,19 @@ color:orange;
     top:162px;
     height:400px;
     width:100%;
+    }
+
+    #hero-img section {
+        margin:-70px;
+        
+    }
+
+    #hero-img img {
+        width:120px;
+        /* border: 1px solid white; */
+        border-radius:10px;
+        
+        
     }
 
 }
