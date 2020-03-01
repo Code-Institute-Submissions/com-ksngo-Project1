@@ -1,0 +1,64 @@
+
+aside {
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+align-items: center;
+/* border:1px black solid; */
+margin-top: 50px;
+background-color: black;
+min-height:18em;
+}
+
+#my-contact {
+    
+    border:1px solid blue;
+    height: auto;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: white;
+    border-radius:1em;
+}
+
+#contact-me {
+    border:1px solid blue;
+    height:auto;
+    margin: 0.5rem;
+    width: 25rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: white;
+    border-radius:1em;
+}
+
+@media (max-width: 750px) {
+    aside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-me {
+    border:1px solid blue;
+    height:auto;
+    margin: 0.5rem;
+    width: auto;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    border-radius:1em;
+    }
+
+}
+
+@media (max-width:500px) {
+    aside {
+        margin-top:150px;
+    }
+
+}

@@ -14,6 +14,8 @@ nav{
     position: fixed;
     width: 100%;
     /* font-weight:bold; */
+    z-index:1;
+    
     
     
 }
@@ -159,6 +161,7 @@ color:orange;
     position: relative;
     color:black; 
     display: block;
+    flex-wrap: wrap;
 }
 
 @keyframes name-move {
@@ -197,6 +200,7 @@ color:orange;
     position: relative;
     color:black; 
     display: block;
+    flex-wrap: wrap;
 }
 
 @keyframes age-move {
@@ -235,6 +239,9 @@ color:orange;
     position: relative;
     color:black; 
     display: block;
+    flex-wrap: wrap;
+    
+    
 }
 
 @keyframes race-move {
@@ -373,6 +380,7 @@ color:orange;
     color: white;
     position: fixed;
     width: 100%;
+    z-index:1;
     
     }
 
@@ -407,7 +415,7 @@ color:orange;
     #hero-img{
     background-color: red;
     position: relative;
-    z-index:3;
+    z-index:-1;
     top:162px;
     height:400px;
     width:100%;
