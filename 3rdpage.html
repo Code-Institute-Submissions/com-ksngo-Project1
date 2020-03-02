@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="../CSS/style-3rdpage-skills.css">
     
 
     <title>ksngo-resume-pg3</title>
@@ -15,7 +15,7 @@
 <body>
 
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary container-fluid">  <!--navbar primary-->
         <a class="navbar-brand" href="#">More about me</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-    <nav class="container-fluid">
+    <nav class="container-fluid"> <!--nav secondary-->
       <ul class="nav justify-content-around row border border-primary">
         <li class="nav-item col-auto">
           <a class="nav-link active" href="#">Skills</a>
@@ -49,74 +49,154 @@
       </ul>
     </nav>
 
-    <section class="container-fluid">
+    <section class="container-fluid bg-info"> <!--Carousel-->
 
-        <header class="h3 text-primary">Skills </header>
-        <div class="row row-cols-3 row-cols-md-6">
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="../images/skills/html5-logo.png" class="card-img-top w-50 mx-auto" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section class="container-fluid bg-info d-block w-100">  <!--Skill card Groups-->
 
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="../images/skills/CSS3-logo.png" class="card-img-top w-50 mx-auto" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col mb-4">
-              <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card h-100">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <header class="h3 text-primary text-light">Skills </header>
+              <div class="row row-cols-3 row-cols-md-5 row-cols-lg-6 bg-info text-info">
+                  
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="../images/skills/html5-logo.png" class="card-img-top w-50 mx-auto" alt="html5">
+                      <div class="card-body m-auto">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Beginner</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card h-100">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="../images/skills/CSS3-logo.png" class="card-img-top w-50 mx-auto" alt="CSS">
+                      <div class="card-body m-auto">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Beginner</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
+      
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="../images/skills/python3.png" class="card-img-top w-50 mx-auto" alt="python3">
+                      <div class="card-body m-auto">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Beginner</p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="../images/skills/msword.png" class="card-img-top w-50 mx-auto" alt="Microsoft Words">
+                      <div class="card-body m-auto">
+                        <h5 class="card-title">MS Words</h5>
+                        <p class="card-text">Intermediate</p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="../images/skills/excel.png" class="card-img-top w-50 mx-auto" alt="Microsoft Excel">
+                        <div class="card-body m-auto">
+                          <h5 class="card-title">MS Excel VBA</h5>
+                          <p class="card-text">Intermediate</p>
+                        </div>
+                      </div>
+                  </div>
+      
+                  <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="../images/skills/powerpoint.png" class="card-img-top w-50 mx-auto" alt="Microsoft Powerpoint">
+                        <div class="card-body m-auto">
+                          <h5 class="card-title">MS Power point</h5>
+                          <p class="card-text">Intermediate</p>
+                        </div>
+                      </div>
+                  </div>
+      
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="../images/skills/Access.png" class="card-img-top w-50 mx-auto" alt="Microsoft Access">
+                      <div class="card-body m-auto">
+                        <h5 class="card-title">MS Access</h5>
+                        <p class="card-text">Beginner</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="../images/skills/SAPMM.png" class="card-img-top w-50 mx-auto" alt="SAP Material Management">
+                      <div class="card-body m-auto">
+                        <h5 class="card-title">SAP MM</h5>
+                        <p class="card-text">Beginner</p>
+                      </div>
+                    </div>
+                  </div>
+      
+              </div>
               
-            </div>
-        </div>
+      
+            </section>
         
+          </div>
+          <div class="carousel-item">
+            <section class="container-fluid bg-info d-block w-100"> <!--Skill Progressbar-->
 
+              <div class="row mb-3 w-50 offset-2 bg-info justify-content-between " style="height:30px;" id="skill-level">
+                <div class="col-3 bg-white text-center rounded-lg"> Beginner</div>
+                <div class="col-sm-4 col-5  bg-white text-center rounded-lg"> Intermediate</div>
+                <div class="col-3 col-md-2 d-sm-block d-xs-none bg-white text-center rounded-lg"> Expert</div>
+        
+              </div>
+        
+              <div class="progress mb-3 w-50 offset-2" style="height:20px;">
+                <div class="progress-bar bg-danger text-left font-weight-bold" role="progressbar" style="width: 33%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2" style="height:20px;">
+                <div class="progress-bar bg-primary text-left font-weight-bold" role="progressbar" style="width: 33%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2 " style="height:20px;">
+                <div class="progress-bar bg-warning text-left font-weight-bold" role="progressbar" style="width: 33%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Python</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2 " style="height:20px;">
+                <div class="progress-bar bg-primary text-left font-weight-bold" role="progressbar" style="width: 66%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MS Words</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2 " style="height:20px;">
+                <div class="progress-bar bg-success text-left font-weight-bold" role="progressbar" style="width: 66%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MS Excel VBA</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2 " style="height:20px;">
+                <div class="progress-bar bg-warning text-left font-weight-bold" role="progressbar" style="width: 66%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">MS Power Point</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2 " style="height:20px;">
+                <div class="progress-bar bg-danger text-left font-weight-bold" role="progressbar" style="width: 33%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">MS Access</div>
+              </div>
+              <div class="progress mb-3 w-50 offset-2 " style="height:20px;">
+                <div class="progress-bar bg-primary text-left font-weight-bold" role="progressbar" style="width: 33%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">SAP MM</div>
+              </div>
+        
+            </section>
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-info" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-info" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
+
+    
+
 
 
 
