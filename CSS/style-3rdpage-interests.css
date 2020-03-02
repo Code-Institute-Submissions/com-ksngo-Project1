@@ -25,6 +25,7 @@
 
     body #jump-to-top {
         text-align: end;
+        
     }
 
     footer {
@@ -46,6 +47,7 @@
         float:right;
         position:relative;
         top:10px;
+        color:white;
     }
 
     

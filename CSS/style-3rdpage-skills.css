@@ -1,9 +1,22 @@
 
+body {
+    background-image: url("../images/color-wall.jpg");
+    background-size: cover;
+    
+}
+
+.nav-item:hover {
+    background-color: rgba(31, 31, 75,0.1);
+    
+}
+
+
 
 .carousel-item #skill-level div {
     
     margin-left:0;
     padding-left:0;
+    
     
 }
 
