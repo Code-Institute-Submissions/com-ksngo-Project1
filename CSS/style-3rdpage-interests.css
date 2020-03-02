@@ -1,0 +1,51 @@
+
+    @media (min-width: 576px) {
+        
+        #popover button {
+        font-size:15px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #popover button {
+        font-size:18px;}
+    }
+
+    @media (min-width: 992px) {
+        #popover button {
+        font-size:20px;}
+    }
+
+    @media (min-width: 1200px) {
+        #popover button {
+        font-size:25px; }
+        
+    }
+
+
+    body #jump-to-top {
+        text-align: end;
+    }
+
+    footer {
+        text-align:center; 
+    }
+
+    footer a {
+        color:white;
+    }
+
+    footer a:hover {
+        font-size:large;
+        color:white;
+    }
+
+    footer span{
+        font-size:x-small;
+        padding-right:0.5rem;
+        float:right;
+        position:relative;
+        top:10px;
+    }
+
+    
