@@ -36,6 +36,40 @@ min-height:18em;
     border-radius:1em;
 }
 
+/* #contact-me table td {
+    width:30%;
+} */
+
+#contact-me-individual-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#contact-me-individual-row label {
+    flex:1;
+    text-align:center;
+}
+
+#contact-me-individual-row input {
+    flex:2;
+    text-align:center;
+    
+}
+
+#contact-me-individual-row textarea {
+    flex:2;
+    text-align:center;
+    
+}
+
+
+
+
+
+    
+
 
 footer {
     background-color:black; 
