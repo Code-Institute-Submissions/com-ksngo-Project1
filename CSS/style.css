@@ -40,7 +40,9 @@ color:white;
 
 nav div span a:hover {
 text-decoration: none;
-color:orange;
+text-shadow: 0px -15px 2px whitesmoke;
+
+color:white;
 }
 
 #hero-img {
@@ -362,6 +364,19 @@ color:orange;
 
 }
 
+
+
+/* #contact-me table td {
+    width:30%;
+} */
+
+#contact-me-individual-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
 
 
 
