@@ -24,6 +24,14 @@ nav{
 
 }
 
+nav section{
+    display: inline-block;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:15px;
+}
+
 nav div{
     display: inline-block;
     align-items: center;
@@ -34,17 +42,29 @@ nav div{
     
 }
 
-nav div span a {
+nav div {
 /* text-decoration: none; */
 color:white;
+transition: transform 0.35s;
+transform:translate3d(0,0,0);
+}
+
+nav div:hover{
+text-decoration: none;
+/* text-shadow: 0px -15px 2px whitesmoke; */
+transform:translate3d(0,5px,0);
+color:white;
+}
+
+nav div span a {
+    color:white;
 }
 
 nav div span a:hover {
-text-decoration: none;
-text-shadow: 0px -15px 2px whitesmoke;
-
-color:white;
+    text-decoration:none;
+    color:white;
 }
+
 
 #hero-img {
     background-color:purple;
