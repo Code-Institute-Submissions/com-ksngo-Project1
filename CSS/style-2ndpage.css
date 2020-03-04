@@ -2,9 +2,11 @@ body {
 
     background-image: url("../images/journey/gem-opacity.jpg");
     background-size: cover;
-    
 
+}
 
+body section div {
+    font-family: 'Roboto', sans-serif;
 }
 
 section div {
@@ -15,9 +17,13 @@ section div {
     /* border-radius:25%; */
 }
 
-section a:hover {
+
+section section a:hover {
     text-decoration:none;
-    /* color: red;  unable to work*/
+    background-image: linear-gradient(rgb(0,123,255), white);
+    font-size:larger;
+    border-radius:1rem;
+    padding:3px;
 }
 
 footer {
@@ -41,6 +47,7 @@ footer span{
     top:10px;
     color:white;
 }
+
 
 
  
