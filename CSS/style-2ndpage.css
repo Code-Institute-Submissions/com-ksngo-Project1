@@ -19,11 +19,17 @@ section div {
 
 
 section section a:hover {
-    text-decoration:none;
-    background-image: linear-gradient(rgb(0,123,255), white);
+    
+    background-image: linear-gradient(rgb(0,123,255), white,green);
     font-size:larger;
     border-radius:1rem;
     padding:3px;
+    
+    
+}
+
+section section .text-light:hover {
+    color:rgb(0,123,255) !important;
 }
 
 footer {
