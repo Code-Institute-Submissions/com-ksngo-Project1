@@ -69,7 +69,29 @@ nav div span a:hover {
     background-image: url("../images/wooden-surface-bw.jpg");
     background-size:cover;
     font-family: 'Roboto', sans-serif;
+
+    animation-name:hero-move;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    animation-timing-function: ease-in-out;
+
 }
+
+
+
+
+@keyframes hero-move {
+    from {
+        transform: scale (1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 
 #hero-img section {
     display:flex;
