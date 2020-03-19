@@ -62,8 +62,9 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 **Home Page**
 1. Navigation bar is mobile friendly and will align vertically for screen width 500px and below. The links are manually tested to ensure the links bring user to correct page or location.
 2. Basic Info is display by an animation keyframes with animation duration of 3sec. Basic Info will sit above the Hero Image.
-3. Contact Information are displayed in flex and row direction. Contact entry by users are created as forms. Further backend work is required for the form to eventually pass the entries to the author. The contact information is mobile friendly and will align in columns for screen width 750px and below.
-4. The footer bar's social platform links are currently broken till author's respective social platform links are ready. On hover over the icons, the font size will enlarge for additional interactivity.
+3. The hero image also have animation keyframes of transform by scale 1.1 with animation duration of 5sec.
+4. Contact Information are displayed in flex and row direction. Contact entry by users are created as forms. Further backend work is required for the form to eventually pass the entries to the author. The contact information is mobile friendly and will align in columns for screen width 750px and below.
+5. The footer bar's social platform links are currently broken till author's respective social platform links are ready. On hover over the icons, the font size will enlarge for additional interactivity.
 
 **My Journey Page**
 1. The navigation bar is mobile friendly and will collapse to hamburger for smaller screen. Author makes use of bootstrap NavBar components for this feature.

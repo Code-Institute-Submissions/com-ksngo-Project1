@@ -17,6 +17,9 @@ section div {
     /* border-radius:25%; */
 }
 
+.noHover{
+    pointer-events: none !important;
+}
 
 section section a:hover {
     
@@ -55,6 +58,58 @@ footer span{
 }
 
 
+/* for arrow animation */
+
+.arrow-holder {
+    position: relative;
+    height: 50px;
+    width: 500px;
+  }
+  
+  .arrow {
+    float: left;
+    margin-right: 15px;
+      width: 0; 
+      height: 0; 
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+  }
+  
+  .arrow-right {
+      border-left: 15px solid white;
+  }
+  
+  .arrow-left {
+      border-right: 15px solid white;
+  }
+  
+  @-webkit-keyframes flash {
+    0%   { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  #arrow1 {
+    -webkit-animation: flash 2.5s infinite;
+  }
+  
+  #arrow2 {
+    -webkit-animation: flash 2.5s infinite .5s;
+  }
+  
+  #arrow3 {
+    -webkit-animation: flash 2.5s infinite 1s;
+  }
+  
+  #arrow4 {
+    -webkit-animation: flash 2.5s infinite 1.5s;
+  }
+  
+  #arrow5 {
+    -webkit-animation: flash 2.5s infinite 2s;
+  }
+
+/* end of for arrow animation */
+/* https://codepen.io/rbessemer/pen/kxmFD?__cf_chl_jschl_tk__=292975ab154eaca5ab3b8a304c6948a20ec06141-1584604089-0-ARp8mLUtgfnRiEmGJXJekyn1esXX51v_X6Cos2aDNcLC5pl75KSFPzXUm2xFj5D6lxBR1pOouqKDal_oApslnlNsgRFUzGWVPwMxY9nDtvBg1tikP-NHXqM-j3tOmicb122NNUBrmJ7c7QpxaNJ3ogbUYY9UowWlT2nQ7iDVmtUKLSOHgALzie6PhJJTbGTXzWpozxqG_LXIigtE_Z-e36SGEx39larAOvN1briU2CkYAorCQufSJ2Moi_ur79-kuWI3vgpcFgth3DUIbACYzt-xDEZ1oD0FbsDyE7u-We4Bu5FwBIEHgKyZ6XX60r6eY-eVjevNoTBv8h57onGNqvFMp9UIQf7On6OIMS7vsqe9 */
 
  
 @media (min-width: 576px) {
