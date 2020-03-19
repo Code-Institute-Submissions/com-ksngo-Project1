@@ -69,7 +69,7 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 **My Journey Page**
 1. The navigation bar is mobile friendly and will collapse to hamburger for smaller screen. Author makes use of bootstrap NavBar components for this feature.
 2. The background image is displayed under the entire HTML's body element.
-3. The months shown along the line graph when hovered over will appear in a coloured bubble. Viewer can click on the months to popover further information on that month. Author makes use of bootstrap popover component for this feature.
+3. The months shown along the line graph when hovered over will appear in a coloured bubble. Viewer can click on the months to popover further information on that month. Author makes use of bootstrap popover component for this feature. User is guided to click on the first month by animated arrows. The css/html codes are credited to @Raymond Bessemer at codepen.io.
 4. At the bottom of the page,  author makes use of bootstrap collapse accordian component to display employment history. The user can click on respective employment period to expand out contents for that particular employment and click again to collapse the content. This will neatly hides the chunky content.
 
 **More About Me**

@@ -23,10 +23,11 @@ section div {
 
 section section a:hover {
     
-    background-image: linear-gradient(rgb(0,123,255), white,green);
+    background-color:white;
     font-size:larger;
     border-radius:1rem;
     padding:3px;
+    text-decoration:none;
     
     
 }
@@ -59,6 +60,8 @@ footer span{
 
 
 /* for arrow animation */
+/* Credit to Raymond Bessemer at codepen.io */
+/* https://codepen.io/rbessemer/pen/kxmFD?__cf_chl_jschl_tk__=292975ab154eaca5ab3b8a304c6948a20ec06141-1584604089-0-ARp8mLUtgfnRiEmGJXJekyn1esXX51v_X6Cos2aDNcLC5pl75KSFPzXUm2xFj5D6lxBR1pOouqKDal_oApslnlNsgRFUzGWVPwMxY9nDtvBg1tikP-NHXqM-j3tOmicb122NNUBrmJ7c7QpxaNJ3ogbUYY9UowWlT2nQ7iDVmtUKLSOHgALzie6PhJJTbGTXzWpozxqG_LXIigtE_Z-e36SGEx39larAOvN1briU2CkYAorCQufSJ2Moi_ur79-kuWI3vgpcFgth3DUIbACYzt-xDEZ1oD0FbsDyE7u-We4Bu5FwBIEHgKyZ6XX60r6eY-eVjevNoTBv8h57onGNqvFMp9UIQf7On6OIMS7vsqe9 */
 
 .arrow-holder {
     position: relative;
@@ -69,6 +72,7 @@ footer span{
   .arrow {
     float: left;
     margin-right: 15px;
+    background-color: rgba(0,0,0,0) !important;
       width: 0; 
       height: 0; 
       border-top: 10px solid transparent;
@@ -79,9 +83,7 @@ footer span{
       border-left: 15px solid white;
   }
   
-  .arrow-left {
-      border-right: 15px solid white;
-  }
+
   
   @-webkit-keyframes flash {
     0%   { opacity: 1; }
@@ -109,7 +111,7 @@ footer span{
   }
 
 /* end of for arrow animation */
-/* https://codepen.io/rbessemer/pen/kxmFD?__cf_chl_jschl_tk__=292975ab154eaca5ab3b8a304c6948a20ec06141-1584604089-0-ARp8mLUtgfnRiEmGJXJekyn1esXX51v_X6Cos2aDNcLC5pl75KSFPzXUm2xFj5D6lxBR1pOouqKDal_oApslnlNsgRFUzGWVPwMxY9nDtvBg1tikP-NHXqM-j3tOmicb122NNUBrmJ7c7QpxaNJ3ogbUYY9UowWlT2nQ7iDVmtUKLSOHgALzie6PhJJTbGTXzWpozxqG_LXIigtE_Z-e36SGEx39larAOvN1briU2CkYAorCQufSJ2Moi_ur79-kuWI3vgpcFgth3DUIbACYzt-xDEZ1oD0FbsDyE7u-We4Bu5FwBIEHgKyZ6XX60r6eY-eVjevNoTBv8h57onGNqvFMp9UIQf7On6OIMS7vsqe9 */
+
 
  
 @media (min-width: 576px) {
