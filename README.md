@@ -81,6 +81,10 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 
 ## Surface
 
+It’s the sum total of all the work and decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.
+In Surface, we are dealing with _Visual Design(Sensory Design), It’s concerned about the visual appearance of content, controls, which gives a clue of what user can do, and how to interact with them. It should make things easier to understand, increase cognitive ability to absorb what users see on the screen.
+
+
 **Home Page**
 **My Journey Page**
 **More About Me**
