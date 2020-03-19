@@ -70,7 +70,7 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 **My Journey Page**
 1. The navigation bar is mobile friendly and will collapse to hamburger for smaller screen. Author makes use of bootstrap NavBar components for this feature.
 2. The background image is displayed under the entire HTML's body element.
-3. The months shown along the line graph when hovered over will appear in a coloured bubble. Viewer can click on the months to popover further information on that month. Author makes use of bootstrap popover component for this feature. User is guided to click on the first month by animated arrows. The css/html codes are credited to @Raymond Bessemer at codepen.io.
+3. The months shown along the line graph when hovered over will appear in a white bubble. Viewer can click on the months to popover further information on that month and can close them by clicking anywhere else. Author makes use of bootstrap popover component for this feature. User is guided to click on the first month by animated arrows. The css/html codes are credited to @Raymond Bessemer at codepen.io.
 4. At the bottom of the page,  author makes use of bootstrap collapse accordian component to display employment history. The user can click on respective employment period to expand out contents for that particular employment and click again to collapse the content. This will neatly hides the chunky content.
 
 **More About Me**
@@ -78,7 +78,7 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 2. The secondary navigation bar allows users to goes directly to the section in the page that they are interested in. Author makes use of bootstrap navs components for this feature.
 3. The skills section has two layers displayed in the form of carousels which user can toggle by the directional button. The first layer makes use bootstrap card components and the second layer bootstrap progress components. The images transform by a scale of 1.1 when hovered upon for additional interactivity with user. The carousel effect makes use of bootsstrap carousel components.
 4. The Portfolios section makes use of the bootstrap card columns. The images will also transform by scale 1.1 when hovered over. A 'placeholder statement' will display itself when user hover over the respective portfolio because they are placeholders till author can further upload personal projects in the future. The 'placeholder statement' hover over effect is controlled by its CSS opacity value. User is able to open up the website of respective portfolios when click on the shown page links.
-5. The interests & hobbies section makes use of bootstrap button type & popover components. User can find out more content for respective button when click on.
+5. The interests & hobbies section makes use of bootstrap button type & popover components. User can find out more content for respective button when hover on.
 6. A return to top icon is inserted at the bottom right so that user can return to top.
 
 ## Surface
