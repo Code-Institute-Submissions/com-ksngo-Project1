@@ -6,7 +6,8 @@ Welcome,
 
 A blue button should appear to click: *Expose*,
 
- Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ 
+Please find my resume page at <a href="https://ksngo.github.io/Project1/" target="_blank"> https://ksngo.github.io/Project1/</a> .
 
 --------
 

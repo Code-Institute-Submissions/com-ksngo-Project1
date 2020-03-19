@@ -95,19 +95,19 @@ footer span{
   }
   
   #arrow2 {
-    -webkit-animation: flash 2.5s infinite .5s;
+    -webkit-animation: flash 2s infinite ;
   }
   
   #arrow3 {
-    -webkit-animation: flash 2.5s infinite 1s;
+    -webkit-animation: flash 2s infinite .5s;
   }
   
   #arrow4 {
-    -webkit-animation: flash 2.5s infinite 1.5s;
+    -webkit-animation: flash 2s infinite 1s;
   }
   
   #arrow5 {
-    -webkit-animation: flash 2.5s infinite 2s;
+    -webkit-animation: flash 2s infinite 1.5s;
   }
 
 /* end of for arrow animation */
