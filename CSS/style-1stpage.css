@@ -1,12 +1,17 @@
+
 body {
-/* height:auto; */
+
 background-color:black;
+max-width:100%;
+height:auto;
+overflow:hidden;
 
 }
 
 
 nav{
     background-color:black;
+    
     height:50px;
     font-size: 16px;
     color: white;
@@ -65,7 +70,7 @@ nav div span a:hover {
     z-index:-1;
     top:50px;
     height:550px;
-    /* width:100%; */
+    width:100%;
     background-image: url("../images/wooden-surface-bw.jpg");
     background-size:cover;
     font-family: 'Roboto', sans-serif;
@@ -85,10 +90,12 @@ nav div span a:hover {
 @keyframes hero-move {
     from {
         transform: scale (1);
+
     }
 
     to {
         transform: scale(1.1);
+        
     }
 }
 
@@ -98,18 +105,13 @@ nav div span a:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    /* margin-top:px; */
-    /* float: right; */
+    
     margin:-20px;
 }
 
-/* #hero-img div {
-    margin-bottom:3px;
-} */
-
 #hero-img img {
     width:140px;
-    /* border: 1px solid white; */
+    
     border-radius:10px;
 }
 
@@ -238,8 +240,7 @@ nav div span a:hover {
 
 @keyframes age-move {
     from {
-        /* left: inherit;
-        top: inherit; */
+        
     }
     50% {
 
@@ -280,8 +281,7 @@ nav div span a:hover {
 
 @keyframes race-move {
     from {
-        /* left: inherit;
-        top: inherit; */
+        
     }
     50% {
 
@@ -298,9 +298,9 @@ nav div span a:hover {
         
         
     }
-}
+} 
 
-/* 
+/* unwanted portion
 
 #animation-notebook {
     animation-name: notebook-move;
@@ -394,7 +394,7 @@ nav div span a:hover {
         border:3px solid white;
         border-radius:10px;
     }
-} */
+} unwanted portion*/
 
 #hero-img span {
     color:transparent;
