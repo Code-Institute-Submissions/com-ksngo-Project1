@@ -35,3 +35,64 @@ We continually tweak and adjust this template to help give you the best experien
 Happy coding!
 
 1mar20:switched to visual studio code....
+
+
+## Strategy
+
+Reason for WebSite: To showcase my resume to hiring companies on a webpage. The webpage shall contain the relevant information (e.g. experience, contact info, skills, portfolios, interests) for hiring companies to know more about me.
+
+## Scope
+
+**Home Page**
+
+1.Basic introduction of author
+2.Contact information
+3.Links to other two pages
+
+**My Journey Page**
+1.Line graph showing major milestones (e.g. education & employment status)
+2.Employment history and elaborations
+3.Links to other two pages
+
+**More About Me**
+1.Skills
+2.Portfolios and any certificates
+3.Interests and hobbies
+4.Links to other two pages
+
+## Structure
+
+**Home Page**
+
+1. Contains navigation bar to navigate between other pages
+2. Contains Hero Image as background. Author basic info will display above this background image.
+3. Contains text-box to display contact info and a form beside it for contact & remarks population.
+4. Contains footer for social platform links.
+
+**My Journey Page**
+1. Contains navigation bar to navigate between other pages.
+2. Contains background image and Line graphs are placed above.
+3. Contains card components for Employment details.
+4. Contains footer for social platform links.
+
+**More About Me**
+1. Contains navigation bar to navigate between other pages.
+2. Contains secondary bar to navigate within this page.
+3. Contains background image.
+4. Contains section for skills information.
+5. Contains section for portfolios information.
+6. Contains section for interests and hobbies information.
+7. Contains footer for social platform links.
+
+## Skeleton
+
+**Home Page**
+1.
+**My Journey Page**
+**More About Me**
+
+## Surface
+
+**Home Page**
+**My Journey Page**
+**More About Me**
