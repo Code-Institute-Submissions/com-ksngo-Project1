@@ -17,12 +17,15 @@
   </head>
   <body>
     
-    <nav>
-        <div id="home-nav"><span><a href="index.html">Home</a></span></div>
-        <div><span><a href="2ndpage.html"> My Journey</a></span></div>
-        <div><span><a href="3rdpage.html">More about me</a></span></div>
-        <div><span><a href="#contact-me">Contact</a></span></div>
-    </nav>
+    <div id='navdiv'>
+        <nav>
+            <div id="home-nav"><span><a href="index.html">Home</a></span></div>
+            <div><span><a href="2ndpage.html"> My Journey</a></span></div>
+            <div><span><a href="3rdpage.html">More about me</a></span></div>
+            <div><span><a href="#contact-me">Contact</a></span></div>
+        </nav>
+    </div>
+
 
     <div id="hero-img">
         <h1 id="animation-welcome">Welcome</h1>
@@ -38,6 +41,7 @@
         </section>
     </div>
 
+    <div id="aside">
     <aside>
         <section id="my-contact">
             <h6><b> My Contact </b> </h6>
@@ -49,19 +53,19 @@
             <h6><b>Contact Me</b></h6>
             <div id="contact-me-individual-row">
                 <label for="first-name" >First Name: </label>
-                <input type="text" id="first-name" placeholder="first name" name="first-name">
+                <input type="text" id="first-name" placeholder="" name="first-name">
             </div>
             <div id="contact-me-individual-row">
                 <label for="last-name" >Last Name: </label>
-                <input type="text" id="last-name" placeholder="last name" name="last-name">
+                <input type="text" id="last-name" placeholder="" name="last-name">
             </div>
             <div id="contact-me-individual-row">
                 <label for="email" >Email: </label>
-                <input type="email" id="email" placeholder="email" name="email">
+                <input type="email" id="email" placeholder="" name="email">
             </div>
             <div id="contact-me-individual-row">
                 <label for="Contact #" >Contact #: </label>
-                <input type="text" id="contact#" placeholder="mobile number" name="contact#">
+                <input type="text" id="contact#" placeholder="" name="contact#">
             </div>
             <div id="contact-me-individual-row">
                 <label for="any-remarks">Remarks:</label>
@@ -72,11 +76,14 @@
             </form>
         </section>  
     </aside>
+    </div>
 
     <footer>
-      <a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="padding-left:8rem;"></i></a>
-      <a href="https://www.facebook.com/ngo.keesiang" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" "></i></a>
-      <span> Last Updated on 19/3/2020 </span>
+        <div id='footer'>
+            <a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="padding-left:8rem;"></i></a>
+            <a href="https://www.facebook.com/ngo.keesiang" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" "></i></a>
+            <span> Last Updated on 19/3/2020 </span>
+        </div>
     </footer>
 
 

@@ -1,26 +1,32 @@
 
 body {
 
-background-color:black;
+background-color:rgba(0,123,255,.1);
 max-width:100%;
 height:auto;
 overflow-x:hidden;
 
 }
 
+#navdiv {
+    background-color: white;
+    height:50px;
+    padding:0.5px;
+   
+}
 
-nav{
-    background-color:black;
-    
+
+#navdiv nav{
+    background-color: rgba(0,123,255,.1);
     height:50px;
     font-size: 16px;
-    color: white;
     text-align: right;
     position: fixed;
     width: 100%;
     /* font-weight:bold; */
     z-index:1;
     font-family: 'Oswald', sans-serif;
+    padding:0.5px;
     
 }
 
@@ -30,7 +36,7 @@ nav{
 }
 
 
-nav div{
+#navdiv nav div{
     display: inline-block;
     align-items: center;
     /* border: 1px solid white; */
@@ -40,27 +46,27 @@ nav div{
     
 }
 
-nav div {
+#navdiv nav div {
 /* text-decoration: none; */
-color:white;
+color:rgba(0,123,255);
 transition: transform 0.35s;
 transform:translate3d(0,0,0);
 }
 
-nav div:hover{
+#navdiv nav div:hover{
 text-decoration: none;
 /* text-shadow: 0px -15px 2px whitesmoke; */
 transform:translate3d(0,5px,0);
 color:white;
 }
 
-nav div span a {
-    color:white;
+#navdiv nav div span a {
+    color:rgba(0,123,255);
 }
 
-nav div span a:hover {
+#navdiv nav div span a:hover {
     text-decoration:none;
-    color:white;
+    color:rgba(0,123,255);
 }
 
 
@@ -68,10 +74,9 @@ nav div span a:hover {
     background-color:white;
     position: relative;
     z-index:-1;
-    top:50px;
     height:550px;
     width:100%;
-    background-image: url("../images/wooden-surface-bw.jpg");
+    background-image: url("../images/wooden-surface-blue.jpg");
     background-size:cover;
     font-family: 'Roboto', sans-serif;
 
@@ -124,7 +129,7 @@ nav div span a:hover {
     animation-delay:1s;
     animation-timing-function: linear;
     position: relative;
-    color:black;
+    color:white;
     font-size: 25px;
     
 }
@@ -143,7 +148,7 @@ nav div span a:hover {
     to {
         left:10%;
         top:13%;
-        color:black;
+        color:white;
         font-size: 25px;
         
     }
@@ -159,7 +164,7 @@ nav div span a:hover {
     animation-delay:1s;
     animation-timing-function: linear;
     position: relative;
-    color:black;
+    color:white;
     padding-bottom:0px;
     
 
@@ -179,7 +184,7 @@ nav div span a:hover {
     to {
         left:15%;
         top:10%;
-        color:black;
+        color:white;
         font-size: 16px;
         
     }
@@ -405,10 +410,10 @@ nav div span a:hover {
 @media (max-width: 500px) { 
 
     nav{
-    background-color:black;
+    background-color:white;
     height:auto;
     font-size: 16px;
-    color: white;
+    color: rgba(0,123,255);
     position: fixed;
     width: 100%;
     z-index:1;
