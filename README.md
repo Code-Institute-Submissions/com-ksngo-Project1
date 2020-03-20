@@ -1,8 +1,11 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome,
- 
-Please find my resume page at <a href="https://ksngo.github.io/Project1/" target="_blank"> `https://ksngo.github.io/Project1/`</a> .
+Welcome to my project,
+
+I have decided to work on a resume webpage so that it can possibly be used for my own job search.
+Please find my resume page at <a href="https://ksngo.github.io/Project1/" target="_blank"> `https://ksngo.github.io/Project1/`</a> . Hope you like it.
+
+Kindly note that the webpages open fine on chrome/firefox but does not display as intended on internet edge.
 
 --------
 
@@ -83,6 +86,9 @@ In Surface, we are dealing with _Visual Design(Sensory Design), It’s concerned
 
 
 **Home Page** 
+
+The color theme is in black and white. The contrast it provides are extremely clear
+
 
 **My Journey Page**
 

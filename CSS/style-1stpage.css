@@ -4,7 +4,7 @@ body {
 background-color:black;
 max-width:100%;
 height:auto;
-overflow:hidden;
+overflow-x:hidden;
 
 }
 
