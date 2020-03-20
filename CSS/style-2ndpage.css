@@ -2,6 +2,7 @@ body {
 
     background-image: url("../images/journey/gem-opacity.jpg");
     background-size: cover;
+    
 
 }
 
@@ -38,6 +39,7 @@ section section .text-light:hover {
 
 footer {
     text-align:center; 
+    
 }
 
 footer a {
@@ -80,7 +82,7 @@ footer span{
   }
   
   .arrow-right {
-      border-left: 15px solid white;
+      border-left: 15px solid rgba(0,123,255,0.8);
   }
   
 
@@ -95,19 +97,19 @@ footer span{
   }
   
   #arrow2 {
-    -webkit-animation: flash 2s infinite ;
+    -webkit-animation: flash 2.5s infinite ;
   }
   
   #arrow3 {
-    -webkit-animation: flash 2s infinite .5s;
+    -webkit-animation: flash 2.5s infinite .5s;
   }
   
   #arrow4 {
-    -webkit-animation: flash 2s infinite 1s;
+    -webkit-animation: flash 2.5s infinite 1s;
   }
   
   #arrow5 {
-    -webkit-animation: flash 2s infinite 1.5s;
+    -webkit-animation: flash 2.5s infinite 1.5s;
   }
 
 /* end of for arrow animation */
