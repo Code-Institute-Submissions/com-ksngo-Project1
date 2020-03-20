@@ -87,9 +87,25 @@ In Surface, we are dealing with _Visual Design(Sensory Design), It’s concerned
 
 **Home Page** 
 
-The color theme is in black and white. The contrast it provides are extremely clear
-
+1. The color theme is in black and white. The contrast is clear. 
+2. The content on this page is minimal and aims for a simple introduction with relevant information.
+3. The navigation bar links have hover-over effect by transform translate down so that users can visually notice when their mouse hover over the links. The text family for navigation bar is Oswald.
+4. On starting the page, the words animation will begin to match the mood of the introduction. The words animation are using linear animation by different relative positions at different keyframes to produce the overall effect. The text family here is Roboto. At the background, the hero-image's animation is by transform scale of 1.1. The overall objectives is to produce an inviting and approachable introduction.
+5. The contact form allows user to insert their information if they choose to. The text family here is Opensans.
+6. The three text familes will be reused for the next two pages, with navigation & footer using Oswald, Body and sections using either Roboto or Opensans.
 
 **My Journey Page**
 
+1. The color theme of the page are chosen with bootstrap primary & success colors.
+2. The background image has been chosen with my country's Jewel at Changi Airport. The waterfall, foilage and sunlight complements the theme of growth & flow & nuturing in my journey.
+3. The simple line graph plots the years equivalently over the journey. User can be drawn attention to the first month to click on the month via the animation effects of arrows and 'Start'. User are then encouraged to click on respectives months to view more content that will stay open till user chose to click away.  The months nodes will also be more conspicous with larger font and white circle background. Author hopes that these will help with user-friendliness, intuitive and comfortable for users to read through the easily.
+4. Lastly, the collapsable card columns contents are interactive when user hover them to provide indication that they may click on them.
+
 **More About Me**
+
+1. The theme color use in this page are similar to the previous page.
+2. The background image color matches the bootstrap primary and success color to improve naturalness.
+3. The secondary navigation bar has an opacity and colour to reduce its prominence relative to the primary navigation bar as it is supposed to be secondary. On hover over the respective links in the secondary navigation bar, the background will change color to help user knows that their mouse pointer has reaches it.
+4. The row bar chart colors in the skills section will complement the respective skills image color. For example, css image is blue in color and the row bar color for it is also in blue color.
+5. For the portfolio section, the images have transform scale effect when user hover their mouse over it.
+6. For the interests & hobbies section, the content will display by hover over effect so that the users can quickly view through their contents without requiring to click.
