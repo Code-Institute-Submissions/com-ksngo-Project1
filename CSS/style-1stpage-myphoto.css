@@ -1,0 +1,19 @@
+
+.slider {
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  overflow: hidden;
+  .slider-row {
+    width: 1325px ;
+    height: 584px;
+    background-image: ../images/myphoto/myphoto2.png ;
+    background-size: 1325px 584px;
+    animation: slide 25s linear infinite;    
+  }
+}
+
+@keyframes slide {
+  from { background-position-x: 0; }
+  to   { background-position-x: 1325px; }
+}

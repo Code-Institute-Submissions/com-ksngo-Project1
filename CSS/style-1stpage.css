@@ -110,8 +110,16 @@ color:white;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    
     margin:-20px;
+}
+
+#yellow {
+    
+    position:fixed;
+    left:70%;
+    top: 20%;
+    
+    
 }
 
 #hero-img img {
