@@ -124,9 +124,15 @@ footer span{
 
 
 @media (max-width: 750px) {
+
+    #aside {
+        background-color:white;
+    }
+
     aside {
         display: flex;
         flex-direction: column;
+        padding-top:5px;
     }
 
     #contact-me {
@@ -144,8 +150,13 @@ footer span{
 }
 
 @media (max-width:500px) {
-    aside {
-        margin-top:150px;
+
+    #aside {
+        background-color:white;
+    }
+
+    #aside aside {
+        padding-top:5px;
     }
 
 }

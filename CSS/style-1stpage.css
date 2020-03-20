@@ -409,22 +409,30 @@ color:white;
 
 @media (max-width: 500px) { 
 
-    nav{
-    background-color:white;
+    #navdiv {
+        background-color: white;
+        height:164px;
+        padding:0.5px;
+        
+       
+    }
+
+    #navdiv nav{
+    background-color:rgba(0,123,255,.1);
     height:auto;
     font-size: 16px;
-    color: rgba(0,123,255);
-    position: fixed;
+    color: white;
+    position: relative;
     width: 100%;
     z-index:1;
     
     }
 
-    #home-nav {
+    #navdiv #home-nav {
     float:none;
     }
 
-    nav div{
+    #navdiv nav div{
     display: flex;
     flex-direction:column;
     justify-content: end;
@@ -438,7 +446,7 @@ color:white;
 
     }
 
-    nav div span {
+    #navdiv nav div span {
     
         position: absolute;
         top:auto;
@@ -452,7 +460,7 @@ color:white;
     background-color: white;
     position: relative;
     z-index:-1;
-    top:162px;
+    
     height:400px;
     width:100%;
     }
