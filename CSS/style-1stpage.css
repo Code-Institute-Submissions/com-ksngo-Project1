@@ -23,6 +23,7 @@ overflow-x:hidden;
     background-color: rgba(0,123,255,.1);
     height:50px;
     font-size: 16px;
+    font-weight: normal;
     text-align: right;
     position: fixed;
     width: 100%;
@@ -35,6 +36,9 @@ overflow-x:hidden;
 
 #home-nav {
     float:left;
+    font-size: 22px;
+    margin-top:15px;
+    
 
 }
 
@@ -495,7 +499,7 @@ color:white;
       #hide .slider-row2 {
           width: 1325px ;
           height: 290px;
-          background-image: url("../images/myphoto/myphoto2.jpg") ;
+          background-image: url("../images/myphoto/myphoto.jpg") ;
           background-size: 660px 290px;
           animation: slide 50s linear infinite ;   
           

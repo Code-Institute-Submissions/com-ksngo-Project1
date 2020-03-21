@@ -16,7 +16,7 @@
 #hero-img .slider-row {
     width: 1325px ;
     height: 290px;
-    background-image: url("../images/myphoto/myphoto2.jpg") ;
+    background-image: url("../images/myphoto/myphoto.jpg") ;
     background-size: 660px 290px;
     animation: slide 50s linear infinite ;   
 }
