@@ -11,7 +11,7 @@ body section section span {
 }
 
 section div {
-    background-color: rgb(0,123,255) !important;
+    background-color: white !important;
     width: 4px !important;
     height: 1px !important;
     /* border: rgb(0,123,255) 0.5 px solid; */
@@ -33,7 +33,7 @@ section section a:hover {
 }
 
 section section .text-light:hover {
-    color:rgb(0,123,255) !important;
+    color:rgb(52,58,64) !important;
 }
 
 footer {
@@ -43,12 +43,12 @@ footer {
 }
 
 footer a {
-    color:white;
+    color:rgb(52,58,64);
 }
 
 footer a:hover {
     font-size:large;
-    color:white;
+    color:rgb(52,58,64);
 }
 
 footer span{
@@ -57,7 +57,7 @@ footer span{
     float:right;
     position:relative;
     top:10px;
-    color:white;
+    color:rgb(52,58,64);
 }
 
 
@@ -82,7 +82,7 @@ footer span{
   }
   
   .arrow-right {
-      border-left: 15px solid rgba(0,123,255,0.8);
+      border-left: 15px solid rgb(255,255,255);
   }
   
 
