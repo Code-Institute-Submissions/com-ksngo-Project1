@@ -9,9 +9,12 @@ overflow-x:hidden;
 }
 
 #navdiv {
+    position:relative;
     background-color: white;
     height:50px;
     padding:0.5px;
+    z-index:1;
+
    
 }
 
@@ -24,7 +27,7 @@ overflow-x:hidden;
     position: fixed;
     width: 100%;
     /* font-weight:bold; */
-    z-index:1;
+    
     font-family: 'Oswald', sans-serif;
     padding:0.5px;
     
@@ -71,15 +74,14 @@ color:white;
 
 
 #hero-img {
-    background-color:white;
+    background-color: white;
     position: relative;
-    z-index:-1;
+    z-index:0;
     height:550px;
     width:100%;
     background-image: url("../images/wooden-surface-blue.jpg");
     background-size:cover;
     font-family: 'Roboto', sans-serif;
-
     animation-name:hero-move;
     animation-duration: 5s;
     animation-fill-mode:forwards;
@@ -105,28 +107,20 @@ color:white;
 }
 
 
-#hero-img section {
+/* #hero-img section {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
     margin:-20px;
-}
+} */
 
-#yellow {
-    
-    position:fixed;
-    left:70%;
-    top: 20%;
-    
-    
-}
 
-#hero-img img {
+/* #hero-img img {
     width:140px;
     
     border-radius:10px;
-}
+} */
 
 
 #animation-welcome {
@@ -415,14 +409,16 @@ color:white;
 
 }
 
-@media (max-width: 500px) { 
+#hidden {
+    display:none;
+}
+
+@media (max-width: 850px) { 
 
     #navdiv {
         background-color: white;
         height:164px;
         padding:0.5px;
-        
-       
     }
 
     #navdiv nav{
@@ -433,7 +429,6 @@ color:white;
     position: relative;
     width: 100%;
     z-index:1;
-    
     }
 
     #navdiv #home-nav {
@@ -468,22 +463,63 @@ color:white;
     background-color: white;
     position: relative;
     z-index:-1;
-    
     height:400px;
     width:100%;
     }
 
-    #hero-img section {
-        margin:-70px;
-        
+    #hero-img .slider{
+        display:none;
     }
 
-    #hero-img img {
-        width:120px;
-        /* border: 1px solid white; */
-        border-radius:10px;
-        
-        
+    #hide {
+        position:relative;
+        display:inline-block;
+        width:100%;
+        height:auto;
+        z-index: 0;
+        padding-bottom: 0px;
+        background-image: url("../images/wooden-surface-blue.jpg");
+        background-size: cover;
     }
+
+    #hide .slider2 {
+        position: relative;
+        top: 0%;
+        overflow: hidden;
+        filter: opacity(20%) contrast(800%) hue-rotate(360deg) ;
+        transition: .3s ease-in-out;
+        border-radius:0%;
+        
+      }
+      
+      #hide .slider-row2 {
+          width: 1325px ;
+          height: 290px;
+          background-image: url("../images/myphoto/myphoto2.jpg") ;
+          background-size: 660px 290px;
+          animation: slide 50s linear infinite ;   
+          
+      }
+      
+      #hide .slider-row2 div{
+          background-color: rgba(0,123,255,0.6);
+          background-size:cover;
+          width:auto;
+          height:290px;
+          
+      }
+      
+      #hide .slider2:hover {
+          filter: opacity(100%);
+      }
+      
+      #hide .slider-row2 div:hover{
+        background-color: rgba(0,123,255,0);
+      }
+      
+      @keyframes slide {
+        from { background-position-x: 0; }
+        to   { background-position-x: 660px; }
+      }
 
 }

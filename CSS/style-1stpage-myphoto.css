@@ -1,19 +1,50 @@
 
-.slider {
+#hero-img .slider {
   position: fixed;
-  width: 100%;
-  top: 50%;
+  width: 400px;
+  top: 20%;
+  right:10%;
   overflow: hidden;
-  .slider-row {
-    width: 1325px ;
-    height: 584px;
-    background-image: ../images/myphoto/myphoto2.png ;
-    background-size: 1325px 584px;
-    animation: slide 25s linear infinite;    
-  }
+  background-color:red;
+  margin-right:5px; 
+  filter: opacity(20%) contrast(800%) hue-rotate(360deg) ;
+  transition: .3s ease-in-out;
+  /* border-radius:5%; */
+
 }
+
+#hero-img .slider-row {
+    width: 1325px ;
+    height: 290px;
+    background-image: url("../images/myphoto/myphoto2.jpg") ;
+    background-size: 660px 290px;
+    animation: slide 50s linear infinite ;   
+}
+
+#hero-img .slider-row div{
+  
+    background-color: rgba(0,123,255,0.6);
+    background-size:cover;
+    width:auto;
+    height:290px;
+    
+}
+
+#hero-img .slider:hover {
+    
+    filter:drop-shadow(10px 10px 10px black);
+    
+}
+
+#hero-img .slider-row div:hover{
+  background-color: rgba(0,123,255,0);
+  
+
+}
+
 
 @keyframes slide {
   from { background-position-x: 0; }
-  to   { background-position-x: 1325px; }
+  to   { background-position-x: 660px; }
 }
+
