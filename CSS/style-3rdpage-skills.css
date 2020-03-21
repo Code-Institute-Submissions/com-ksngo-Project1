@@ -71,15 +71,16 @@ body {
 
 
 
-/* unwanted
+
  @media (max-width:544px) {
-    .card-title {
+    /* .card-title {
     font-size: 1rem;
     }
     .card-text {
         font-size: 0.6rem;  
-    }
-    .carousel-item #skill-level {
-    font-size: 10px;
-    }
     } */
+    .carousel-item #skill-level {
+    font-size: 8px;
+    align-content: space-around;
+    }
+}
