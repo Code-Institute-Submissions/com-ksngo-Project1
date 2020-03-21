@@ -37,7 +37,7 @@ overflow-x:hidden;
 #home-nav {
     float:left;
     font-size: 22px;
-    margin-top:15px;
+    margin-top:5px !important;
     
 
 }
@@ -47,7 +47,7 @@ overflow-x:hidden;
     display: inline-block;
     align-items: center;
     /* border: 1px solid white; */
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 15px;
     margin-right:15px;
     
@@ -422,7 +422,7 @@ color:white;
     #navdiv {
         background-color: white;
         height:164px;
-        padding:0.5px;
+        
     }
 
     #navdiv nav{
@@ -437,6 +437,7 @@ color:white;
 
     #navdiv #home-nav {
     float:none;
+    margin-top: 15px !important;
     }
 
     #navdiv nav div{
