@@ -1,12 +1,14 @@
 
 body {
-    background-image: url("../images/color-wall.jpg");
-    background-size: cover;
-    
+    /* background-image: url("../images/color-wall.jpg"); 
+    background-size: cover; */
+    background-color: rgba(0,123,255,0.1) !important;
 }
 
 #nav-secondary a:hover {
-    background-color: rgba(31, 31, 75,0.1);
+    background-color: rgba(52,58,64,.1);
+    color: rgba(52,58,64);
+    font-weight:bold !important;
      
 }
 
@@ -46,15 +48,16 @@ body {
     transition: opacity 0.35s;
     position:absolute;
     top:0;
-    color:rgb(23, 162, 184);
-    background-color:rgb(255,255,255,0);
+    color:rgb(0,123,255);
     padding:1em;
     font-weight: normal;
     font-size:1rem;
     text-align:center;
+    font-weight:bold;
     margin:auto;
     width:100%;
     height:105%;
+    
 }
 
 .card:hover figcaption {
@@ -68,24 +71,15 @@ body {
 
 
 
-
+/* unwanted
  @media (max-width:544px) {
     .card-title {
-
     font-size: 1rem;
-    
     }
-
     .card-text {
-    
-        font-size: 0.6rem;
-        
-    
-        
+        font-size: 0.6rem;  
     }
-
     .carousel-item #skill-level {
     font-size: 10px;
     }
-
-    }
+    } */

@@ -34,12 +34,12 @@
     }
 
     footer a {
-        color:white;
+        color:rgb(52,58,64);
     }
 
     footer a:hover {
         font-size:large;
-        color:white;
+        color:rgb(52,58,64);
     }
 
     footer span{
@@ -48,7 +48,7 @@
         float:right;
         position:relative;
         top:10px;
-        color:white;
+        color:rgb(52,58,64);
     }
 
     
