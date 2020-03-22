@@ -1,3 +1,5 @@
+----------
+
 ## Welcome to my project One,
 
 I have created 'My Resume' webpages.
@@ -10,7 +12,7 @@ Thank you.
 
 ---------
 
-**Contents**
+## Contents
 
 1. Strategy
 
@@ -145,4 +147,5 @@ Date: 22 March 2020
 
 <------------------------- End of Report ------------------------>
 
+-----------
 
