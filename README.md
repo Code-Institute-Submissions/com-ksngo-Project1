@@ -13,9 +13,9 @@ Thank you.
 **Content**
 
 1. Strategy
-    'Home page'
-    'My Journey Page'
-    'More About Me'
+    `Home page`
+    `My Journey Page`
+    `More About Me`
 2. Scope
     Home page
     My Journey Page
