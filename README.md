@@ -141,11 +141,9 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 5. For the portfolio & interests/hobbies sections, the cards/buttons are also spaced apart to have more backdrop warm skin colour revealing.
 
 
-Reported by : Ngo Kee Siang
+`Reported by : Ngo Kee Siang`    `Date: 22 March 2020`
 
-Date: 22 March 2020
-
-<------------------------- End of Report ------------------------>
+`<------------------------- End of Report ------------------------>`
 
 -----------
 
