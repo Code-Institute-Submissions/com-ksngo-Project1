@@ -1,4 +1,4 @@
-Welcome to my project One,
+## Welcome to my project One,
 
 I have created 'My Resume' webpages.
 
@@ -10,28 +10,43 @@ Thank you.
 
 ---------
 
-**Content**
+**Contents**
 
 1. Strategy
+    
     `Home page`
+    
     `My Journey Page`
+    
     `More About Me`
 2. Scope
-    Home page
-    My Journey Page
-    More About Me
+
+    `Home page`
+    
+    `My Journey Page`
+    
+    `More About Me`
 3. Structure
-    Home page
-    My Journey Page
-    More About Me
+
+     `Home page`
+    
+    `My Journey Page`
+    
+    `More About Me`
 4. Skeleton
-    Home page
-    My Journey Page
-    More About Me
+
+    `Home page`
+    
+    `My Journey Page`
+    
+    `More About Me`
 5. Surface
-    Home page
-    My Journey Page
-    More About Me
+
+    `Home page`
+    
+    `My Journey Page`
+    
+    `More About Me`
 
 --------
 
