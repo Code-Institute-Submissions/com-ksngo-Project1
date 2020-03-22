@@ -134,11 +134,12 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 
 **More About Me**
 
-1. The theme color use in this page are using bootstrap primary colour, white and bootstrap dark colour. The background colour is papayawhip skin color. The general color theme of the three webpages though are not completely similar but should not be also awkwardly different. The intention is to minimise user's confusion and maximise user's acceptance and likings to the choice of colour.
+1. The theme color use in this page are using bootstrap primary colour, white and bootstrap dark colour. It shares the same background colour with the home page.
 2. The secondary navigation bar has a opposite colour to primary navigation bar for contrast for their different purposes. On hover over, the background will become grey and texts will turn to black color. Hence, they can build closeness and identity with  the subsequent header (black background) which they are linked to.
 3. The secondary navigation bar links to the three respective section headers. The section headers have a black background. The black colour is to clearly display the section headers while each section holds its content which are pretty rich in color. Hence, the black color will enhance the demarcation of the the content spaces. The margin and padding of the section's columns are set to enlarge the spaces between the sections and contents so that it will not be too claustrophbic. The spaces are also not too excessive to prevent redundancies. 
 4. The row bar chart colors in the skills section will complement the respective skills image color. For example, css image is blue in color and the row bar color for it is also in blue color.
-5. For the portfolio & interests/hobbies sections, the cards/buttons are also spaced apart to have more backdrop warm skin colour revealing.
+
+## Final Words
 
 
 `Reported by :` Ngo Kee Siang    `Date :` 22 March 2020
