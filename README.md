@@ -14,42 +14,28 @@ Thank you.
 
 1. Strategy
 
-    a.  ssss
-    b. sssss
-    c. sssss
-    
-    `Home page`
-    
-    `My Journey Page`
-    
+    `Home page`,
+    `My Journey Page`,
     `More About Me`
 2. Scope
 
-    `Home page`
-    
-    `My Journey Page`
-    
+    `Home page`,
+    `My Journey Page`,
     `More About Me`
 3. Structure
 
-     `Home page`
-    
-    `My Journey Page`
-    
+     `Home page`,
+    `My Journey Page`,
     `More About Me`
 4. Skeleton
 
-    `Home page`
-    
-    `My Journey Page`
-    
+    `Home page`,
+    `My Journey Page`,
     `More About Me`
 5. Surface
 
-    `Home page`
-    
-    `My Journey Page`
-    
+    `Home page`,
+    `My Journey Page`,
     `More About Me`
 
 --------
@@ -154,8 +140,9 @@ Reason for WebSite: To showcase my resume to hiring companies on a webpage. The 
 
 
 Reported by : Ngo Kee Siang
+
 Date: 22 March 2020
 
-------------------------- End of Report. ------------------------
+<------------------------- End of Report ------------------------>
 
 
