@@ -159,6 +159,7 @@ Footer
 - The line graph at the 'My journey' page can be updated to any future milestones.
 - The contact form at the 'home' page can be touched on to connect to backend.
 - The footer's linkedIn and Facebook icons can be linked to ready social platforms in the future.
+- The certificate card at the 'More about me' page can be improvised to pop out to larger screen view when clicked on to have better visual view and effect.
 
 ## Technologies Used
 
@@ -178,42 +179,46 @@ Footer
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-
 1. Home:
-    1. 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+    1. Try to refresh home page and animation of welcome message resets.
+    2. Goes to my journey link, more about me link and contact link and the links are working.
+        The links respond to hover over by animating moving downwards.
+    3. Hover over the hero image and able to turn photos to colour.
+    4. Insert into form with sample data and click submit button. No response as expected.
+    5. The facebook font at footer enlarges when hover over and when clicked, brings me to a facebook webpage in a new tab.
+    6. The linkedIn font at footer enlarges when hover over and when clicked, brings me to a linkedIn webpage in a new tab.
+    7. In mobile screen, the navigation bar is able to collapsed vertically and flushed to the left side. The photos is able to go below the Hero Image. The contact boxes also rearranged vertically.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+2. My Journey
+    1. The back to home link , more about me link and contact me link are working. The hamburgur menu drops down to more navigation selections when clicked on.
+    2. The animated arrows are pointing to month of July 2011. When clicked on the dot for 'July 2011', a pop out box with content will appear. When clicked on the dot again, the pop out box disappears. Hover over the rest of the months down the line chart, the months will appear with larger dot with white background. When click on these months, pop over box will appear with content. When clicked again, the pop over will disappear.
+    3. Try clicking on the companies names, the content history at the past employer will slide out below. When clicked again, the content will hide away.
+    4. The facebook font at footer enlarges when hover over and when clicked, brings me to a facebook webpage in a new tab.
+    5. The linkedIn font at footer enlarges when hover over and when clicked, brings me to a linkedIn webpage in a new tab.
+    6. In mobile screen, the items will compressed into screen width appropriately.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+3. More About Me
+    1. The back to home link, my journey link and contact link are working. The hamburger menu drops down to more navigation selections when clicked on.
+    2. The skills link, portfolios & certificates link and interests & hobbies link brings me to respective sections below in this page.
+    3. The skills card images enlarge when hover over. The carousel left and right buttons when clicked shuffles the carousels right and left as needed.
+    4. When hovered over individual portfolio card space will enlarge the image and shows message 'place holder image and link'. The website link in each portfolio card will redirect me to the sample websites in new tabs. The card to show my certificate can be scrolled.
+    5. The interests buttons when hovered over show more information.
+    6. The return to top button returns me to top of the page.
+    The facebook font at footer enlarges when hover over and when clicked, brings me to a facebook webpage in a new tab.
+    7. The linkedIn font at footer enlarges when hover over and when clicked, brings me to a linkedIn webpage in a new tab.
+    8. In mobile screen, the items will compressed into screen width appropriately. The words font size for the bar chart adjust smaller to accomodate for the smaller estate space.
+
+4. The websites will work for chrome, firefox and internet Edge with the exception that in Edge, the presentation of the animation of my basic info in my home page does not render to the center of the hero image as I wanted.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+I deploy this project in my github.
+The github repository is <a href="https://github.com/ksngo/Project1" target="_blank"> `https://github.com/ksngo/Project1`</a> .
 My resume home page is <a href="https://ksngo.github.io/Project1/" target="_blank"> `https://ksngo.github.io/Project1/`</a> . 
 
-## Credits
+## Credits & Acknowledgements
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+Credits & acknowledgements to technologies mentioned above.
 
 ### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+- The photos used in this site were obtained from free stock photos from Pexels.
