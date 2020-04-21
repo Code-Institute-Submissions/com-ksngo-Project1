@@ -5,8 +5,6 @@ This is my resume.
  
 ## UX
  
-### 1. Strategy
-
 This website is for potential companies when I need to submit my resume to them. Resume on webpage as replacement to conventional Resume in Microsoft Words will provide a more advanced method of showcasing myself to companies. 
 
 As a potential employer, I want to understand my applicant's background and strengths so that I can consider whether to invite him/her for interview.
@@ -15,8 +13,6 @@ As a jobseeker, I want to show employers my information(e.g. experience, contact
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
 
 #### Scope
@@ -166,19 +162,21 @@ Footer
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+- [BootStrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - The project uses **BootStrap** for styling CSS for 'My Journey' and 'More About Me' webpages.
+- [Fontawesome 4.7](https://fontawesome.com/v4.7.0/get-started/)
+    - The project uses **FontAwesome** for the social platforms fonts and chevron fonts.
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google Fonts** for font family.
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+    - The project uses **JQuery** which are used because bootstrap requires them.
+- [Arrow animation](https://codepen.io/rbessemer/pen/kxmFD?__cf_chl_jschl_tk__=292975ab154eaca5ab3b8a304c6948a20ec06141-1584604089-0-ARp8mLUtgfnRiEmGJXJekyn1esXX51v_X6Cos2aDNcLC5pl75KSFPzXUm2xFj5D6lxBR1pOouqKDal_oApslnlNsgRFUzGWVPwMxY9nDtvBg1tikP-NHXqM-j3tOmicb122NNUBrmJ7c7QpxaNJ3ogbUYY9UowWlT2nQ7iDVmtUKLSOHgALzie6PhJJTbGTXzWpozxqG_LXIigtE_Z-e36SGEx39larAOvN1briU2CkYAorCQufSJ2Moi_ur79-kuWI3vgpcFgth3DUIbACYzt-xDEZ1oD0FbsDyE7u-We4Bu5FwBIEHgKyZ6XX60r6eY-eVjevNoTBv8h57onGNqvFMp9UIQf7On6OIMS7vsqe9 )
+    - The project uses **Raymond Bessemer** work as guide for creating arrow animations in the 'My Journey' webpage in the line graph.
+    
 
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -186,6 +184,9 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
+
+1. Home:
+    1. 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
